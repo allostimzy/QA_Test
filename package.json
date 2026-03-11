@@ -1,0 +1,15 @@
+{
+  "name": "qa-test-assessment",
+  "version": "1.0.0",
+  "description": "Automation QA Assessment - Unit tests, API tests, and test design",
+  "scripts": {
+    "test": "jest",
+    "test:task1": "jest task1",
+    "test:task2": "jest task2",
+    "test:task4": "jest task4",
+    "test:all": "jest task1 task2 task4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
